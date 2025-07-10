@@ -1,0 +1,12 @@
+h3{
+    color:#4E47FF ;
+}
+ul li{
+  list-style:none;
+
+}
+nav{
+    background-image: url(Assets/Hero-bg.png);
+    width: 1440;
+    height: 698;
+}
