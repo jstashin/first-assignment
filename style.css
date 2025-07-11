@@ -3,17 +3,13 @@ h3{
 }
 ul li{
   list-style:none;
-
-
 }
 .container{
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-between; 
 }
 header{
-    background-image: url(Assets/Hero-bg.png);
-  
+    background-image: url(Assets/Hero-bg.png);  
 }
 .btn-primary{
   background-color: #4E47FF;
@@ -27,19 +23,20 @@ header{
   
   
 }
+#id space{
+  margin-top: -50px;
+}
 .banner h1 p{
   text-align: center;
  
 }
-div .banner .btn-primary{
-  padding-bottom:200px ;
+.banner .btn-primary{
+  margin-top:-50px;
 }
 .See-it h3{
   font-size: 42;
   font-weight:bold;
-  color:black;
-
-  
+  color:black;  
 }
 .See-it p{
   font-size: 24;
@@ -65,7 +62,8 @@ div .banner .btn-primary{
   margin:0 auto;
   margin-top: 70px;
   background-color:#F0F4FF;
-  padding:30px 60px  30px 60px;
+  padding:60px 20px;
+
 }
 .section-2 h3{
   font-size: 38px;
@@ -85,4 +83,40 @@ margin-top: -20px;
 }
 .subtitle1 p{
   margin-top: -80px;
+}
+.btn-primary{
+  cursor: pointer;
+  transition: transform 0.3s ease;background-color: 0.5 ease;
+}
+.btn-primary:hover{
+  transform: scale(1.1);
+  background-color: yellow;
+
+}
+.Feedback-section{
+  margin:0 auto;
+  width: 1140px;
+  height: 342px;
+ background-color:  #FFFFFF;
+
+}
+.re-section{
+  display: flex;
+  justify-content:space-between;
+}
+.feedback-title{
+  text-align: center;
+  font-size: 42;
+  font-family: bold;
+}
+.re-image{
+  border-radius: 50px;
+}
+.re1{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+}
+#message{
+  text-box: 20px;
 }
