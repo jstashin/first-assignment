@@ -4,9 +4,85 @@ h3{
 ul li{
   list-style:none;
 
+
 }
-nav{
+.container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+header{
     background-image: url(Assets/Hero-bg.png);
-    width: 1440;
-    height: 698;
+  
+}
+.btn-primary{
+  background-color: #4E47FF;
+  border-radius: 10px;
+  color:#FFFFFF;
+  padding: 12px 36px;
+  border: none;
+}
+.banner{
+  text-align: center;
+  
+  
+}
+.banner h1 p{
+  text-align: center;
+ 
+}
+div .banner .btn-primary{
+  padding-bottom:200px ;
+}
+.See-it h3{
+  font-size: 42;
+  font-weight:bold;
+  color:black;
+
+  
+}
+.See-it p{
+  font-size: 24;
+  
+}
+.See-it{
+  margin:0 auto;
+  width: 1140px;
+  display:flex;
+  justify-content: space-between;
+  margin-top: 70px;
+
+}
+.section-2 h3{
+  font-size: 32;
+  font-weight:bold ;
+  color: black;
+  text-align:center ;
+}
+.section-2{
+  width:1140px;
+  height :300px; ;
+  margin:0 auto;
+  margin-top: 70px;
+  background-color:#F0F4FF;
+  padding:30px 60px  30px 60px;
+}
+.section-2 h3{
+  font-size: 38px;
+  font-weight: bold;
+}
+.subtitle3{
+  display: flex;
+  justify-content: center;
+  gap:50px;
+}
+.subtitle1 h3{
+
+font-size: 70px;
+font-weight: bold;
+color:#4E47FF;
+margin-top: -20px;
+}
+.subtitle1 p{
+  margin-top: -80px;
 }
