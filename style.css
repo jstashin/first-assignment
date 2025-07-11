@@ -20,6 +20,7 @@ header{
 }
 .banner{
   text-align: center;
+  font-size: 30px;
   
   
 }
@@ -84,15 +85,7 @@ margin-top: -20px;
 .subtitle1 p{
   margin-top: -80px;
 }
-.btn-primary{
-  cursor: pointer;
-  transition: transform 0.3s ease;background-color: 0.5 ease;
-}
-.btn-primary:hover{
-  transform: scale(1.1);
-  background-color: yellow;
 
-}
 .Feedback-section{
   margin:0 auto;
   width: 1140px;
@@ -110,13 +103,47 @@ margin-top: -20px;
   font-family: bold;
 }
 .re-image{
-  border-radius: 50px;
+  border-radius: 30px;
 }
 .re1{
   display:flex;
   align-items:center;
   gap: 10px;
 }
-#message{
-  text-box: 20px;
+.getintouch-section {
+  width: 1140px;
+  height: 300px;
+  margin:0 auto;
+  background-color:white;
+  padding:60px 20px;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+ 
+  
+}
+.left-title{
+  font-size: 50px;
+  font-family: bold;
+}
+.btn-primary{
+  cursor: pointer;
+  transition: transform 0.3s ease;background-color: 0.5 ease;
+}
+.btn-primary:hover{
+  transform: scale(1.1);
+  background-color: yellow;
+
+}
+footer{
+  text-align: center;
+}
+.logo h2{
+  font-size: 100px;
+  color:#4E47FF
+}
+.option{
+  text-decoration: none;
+  gap:20px
 }
